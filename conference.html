@@ -525,7 +525,7 @@ body {
 	var websocketURL = "wss://innomedia.wtshub.com:5443/innosinz/websocket";
 
 	if (location.protocol.startsWith("https")) {
-		websocketURL = "wss://" + path;
+		var websocketURL = "wss://innomedia.wtshub.com:5443/innosinz/websocket";
 	}
 
 	var webRTCAdaptor = new WebRTCAdaptor(	
